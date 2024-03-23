@@ -1,0 +1,183 @@
+body{
+  background-color: rgb(46, 36, 36);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+.topnav{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: rgb(46, 36, 36);
+}
+
+.topnav a{
+  float: right;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover{
+  background-color: rgb(25, 125, 93);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active{
+  background-color: rgb(20, 75, 195);
+  color: white;
+}
+/* END HEADER */
+
+
+
+/** LOGIN PAGE **/
+
+.login {
+    position: relative;
+    height: 560px;
+    width: 405px;
+    margin: auto;
+    padding: 60px 60px;
+    background: #828181;   
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+  }
+  
+form {
+    padding-top: 80px;
+}
+  
+  .active {
+    color: #FFF;
+    border-bottom: 2px solid rgb(20, 75, 195);
+  }
+  
+  
+  h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+  }
+  
+  span {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px; 
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .text {
+    border: none;
+    width: 89%;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgb(225, 224, 224);
+    border: 2px solid rgb(199, 199, 199);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  .text:focus + span {
+    opacity: 0.6;
+  }
+
+  .text:focus, input[type="text"]{
+    color: white;
+  }
+  
+  input[type="text"], input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+  }
+  
+  input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  h2, span{
+    margin-left: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  
+  .loginbtn {
+    background-color: rgb(20, 75, 195);
+    font-size: 16px;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .loginbtn:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+  }
+  
+  .loginbtn:focus {
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid rgba(255, 255, 255);
+    top: 85px;
+    position: relative;
+  }
+  
+  a.register, a.password {
+    text-align: center;
+    display: block;
+    top: 100px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  a.register{
+    top:40px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+  }
+
+  a.register:hover{
+    color: rgb(2, 247, 169);
+    border-bottom: 2px solid rgb(2, 247, 169);
+  }
+
+
+/* END LOGIN PAGE*/

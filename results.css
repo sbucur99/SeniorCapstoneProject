@@ -1,0 +1,76 @@
+.result-wrapper{
+    width: 850px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.big-box {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .small-box {
+    height: 320px;
+    width: calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    margin-bottom:5%;
+    /* overflow:scroll; */
+    overflow:auto;
+  }
+
+  .small-box:last-child {
+    float: right;
+    margin-right: 0;
+  }
+
+  /* Style for the parent container */
+  .small-container {
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 8rem;
+  }
+
+  /* Styles for the two stacked divs */
+  .box1, .box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  /* Position the first box at the top */
+  .box1 {
+    top: 0;
+    left: 0;
+  }
+
+  /* Position the second box below the first */
+  .box2 {
+    top: 120px;
+    left: 0;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.25;
+    font-family: sans-serif;
+    color: #f3f5e7;
+    text-align: center;
+  }
+  
+  /* Apply additional styles to a specific paragraph */
+  .important {
+    font-weight: bold;
+    color: #eef0d8;
+  }

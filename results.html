@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="topnav">
+            <a href="about.php"><i class="fa fa-fw fa-info" aria-hidden="true"></i>About</a>
+            <a href="../php/LoginPage.php"><i class="fa fa-fw fa-user"></i>Login/SignUp</a>
+            <a class="active" href="../index.php"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a style="position:relative; right:59%; top:2px; " href="../index.php" style="float:left;"><img
+                    src="https://i.ibb.co/Qkmd5yT/output-onlinepngtools-1-4.png" alt="logo-design-header"></a>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div id="results" class="flex-center flex-column">
+            <h1 id="results-text">Results</h1>
+            <form class="results-form-container">
+                <h2 id="results-save-text"></h2>
+                <!-- If logged in, have save results -->
+
+                <!-- If not logged in, give option to create an account -->
+                <button class="btn" id="saveResultsBtn" type="submit" onClick="saveResults(event)"
+                    disabled>Save</button>
+            </form>
+            <a href="../html/questions.php" class="btn">Take Again</a>
+            <a href="../index.php" class="btn">Home</a>
+        </div>
+    </div>
+
+    <!-- <?php include '../php/cursor.php'; ?> -->
+
+</body>
+<footer>
+    <div class="footer">
+    </div>
+</footer>
+
+</html>
